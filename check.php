@@ -27,11 +27,11 @@
                 $mail->isSMTP();
                 $mail->Host='tls://smtp.gmail.com';
                 $mail->SMTPAuth=true;
-                $mail->Username='dibyenu03@gmail.com';
-                $mail->Password='8900324626';
+                $mail->Username='xxxxx@gmail.com';
+                $mail->Password='xxxx';
                 $mail->SMTPSecure='tls';
                 $mail->Port=587;
-                $mail->setFrom('khagendraroy933@gmail.com','Dibyendu');
+                $mail->setFrom('xxxxxx@gmail.com','Dibyendu');
                 $mail->addAddress($email);
                 $mail->isHTML(true);
                 $mail->Subject=$subject;
